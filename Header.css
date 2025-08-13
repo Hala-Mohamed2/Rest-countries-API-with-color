@@ -1,0 +1,28 @@
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 3rem;
+  background-color: var(--input);
+}
+
+.header h2{
+  color: var(--title);
+}
+
+.header .head{
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  color: var(--title);
+  cursor: pointer;
+}
+
+@media (max-width:550px) {
+  .header{
+    padding: 1rem 1rem;
+  }
+  .header h2{
+    font-size: 23px;
+  }
+}
